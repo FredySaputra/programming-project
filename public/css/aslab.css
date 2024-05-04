@@ -1,0 +1,82 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #000; 
+    scroll-behavior:smooth;
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 7%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.navbar a {
+    font-size: 1.05rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+.navbar a:hover{
+    color: #0b042c;
+    transition: 1s;
+} 
+
+/* .bx {
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: none;
+} */
+
+.navbar i {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+}
+
+
+
+.navbar i:hover{
+    color: #0b042c;
+    transition: 1s;
+}
+
+.navbar a i span {
+    margin-right: 20px;
+}
+
+
+.table-1 h1 {
+    position: relative;
+    text-align: center;
+    top: 135px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-style: italic;
+}
+
