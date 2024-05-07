@@ -38,4 +38,6 @@ class DashboardController extends Controller
         Anggota::create($validatedData);
         return redirect('/dashboard');
     }
+
+
 }

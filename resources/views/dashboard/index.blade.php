@@ -199,6 +199,7 @@
                                         <th>Jabatan</th>
                                         <th>Nomor Telepon</th>
                                         <th>NIM Admin</th>
+                                        
                                     </tr>
                                     @foreach ($dataanggota as $item)
                                     <tr>
@@ -207,6 +208,7 @@
                                         <td>{{$item->jabatan}}</td>
                                         <td>{{$item->nomortelepon}}</td>
                                         <td>{{$item->nim_admin}}</td>
+                                        
                                     </tr>
                                     @endforeach
                             </table>

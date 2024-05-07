@@ -49,3 +49,4 @@ Route::post('/presensikeluar', [PresensiAsisten::class, 'presensikeluar'])->name
 
 Route::get('/formkeluar', [CalasController::class, 'formlogout'])->name('formkeluar');
 Route::post('/logoutcalas', [CalasController::class, 'logout'])->name('logoutcalas');
+
